@@ -16,7 +16,7 @@ If data is not in WGS84:EPSG:4326 coordinate reference system then **Reprojectio
 ## Reprojection:
 Go to ‘**Raster**’ tab → **Projections** → **Warp (reprojection)**
 <br></br>
-<img width="1079" height="772" alt="image" src="https://github.com/user-attachments/assets/671a2171-9cfe-4dcd-8619-e654a90d2c3b" />
+<img width="100%" height="772" alt="image" src="https://github.com/user-attachments/assets/671a2171-9cfe-4dcd-8619-e654a90d2c3b" />
 
 Input layer → Select your raster layer
 Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="https://github.com/user-attachments/assets/a1102a5c-18f9-49e2-8e1f-28646ca28e31" />
