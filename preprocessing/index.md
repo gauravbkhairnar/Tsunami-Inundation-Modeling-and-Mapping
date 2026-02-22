@@ -9,9 +9,14 @@ Data inputs:
 Here as a test case we are using GEBCO bathymetry and SRTM topography data
 
 > **__Important Note:__**
-> Both data should be in same coordinate system (WGS 84: EPSG:4326)
+> 
+<div style="background-color:#f57c00; 
+            border-left:5px solid #fff8e1; 
+            color:white; 
+            padding:12px; 
+            margin:15px 0;">
 
-If data is not in WGS84:EPSG:4326 coordinate reference system then **Reprojection** is required
+Both data should be in same coordinate system (WGS 84: EPSG:4326)
 
 ## Reprojection:
 Go to ‘**Raster**’ tab → **Projections** → **Warp (reprojection)**
@@ -53,11 +58,10 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
 </div>
 <br>
 
-> **__Important Note:__**
-> If you have your own Bathymetry and Topography DEM data in point shapefile format then skip step 1 and 2
-
-<div style="background-color:#fff8e1; 
-            border-left:5px solid #2c7fb8; 
+ 
+<div style="background-color:#f57c00; 
+            border-left:5px solid #fff8e1; 
+            color:white; 
             padding:12px; 
             margin:15px 0;">
 
