@@ -11,71 +11,67 @@ This training program focuses on the complete workflow — from terrain preparat
 Here tsunami model part is not been considered.
 </div>
 
-
+<div style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap;">
 <a href="preprocessing/" 
-   style="display:inline-block;
+   style="display:flex;
+          align-items:center;
+          justify-content:center;
           background-color:#00BFFF;
-          width: 150px;  
-          height: 150px;  
-          line-height: 150px;
-            text-align: center;
+          width:150px;
+          height:150px;
+          text-align:center;
           color:white;
-            font-size: 22px;
-            font-weight: bold;
-          padding:15px 25px;
+          font-size:18px;
+          font-weight:bold;
           text-decoration:none;
-          border-radius:24px;
-          font-weight:bold;">
+          border-radius:24px;">
    Preprocessing
 </a>
 <a href="preprocessing/" 
-   style="display:inline-block;
+   style="display:flex;
+          align-items:center;
+          justify-content:center;
           background-color:#FFC40C;
-          width: 150px;  
-          height: 150px;  
-          line-height: 150px;
-            text-align: center;
+          width:150px;
+          height:150px;
+          text-align:center;
           color:white;
-            font-size: 22px;
-            font-weight: bold;
-          padding:15px 25px;
+          font-size:18px;
+          font-weight:bold;
           text-decoration:none;
-          border-radius:24px;
-          font-weight:bold;">
+          border-radius:24px;">
    Flood Layer Generation
 </a>
 
 <a href="preprocessing/" 
-   style="display:inline-block;
+   style="display:flex;
+          align-items:center;
+          justify-content:center;
           background-color:#03C03C;
-          width: 150px;  
-          height: 150px;  
-          line-height: 150px;
-            text-align: center;
+          width:150px;
+          height:150px;
+          text-align:center;
           color:white;
-            font-size: 22px;
-            font-weight: bold;
-          padding:15px 25px;
+          font-size:16px;
+          font-weight:bold;
           text-decoration:none;
-          border-radius:24px;
-          font-weight:bold;">
+          border-radius:24px;">
    Building Level Evacuation Routes and Analysis
 </a>
 
 <a href="preprocessing/" 
-   style="display:inline-block;
-          background-color:#FDF5E6;
-          width: 150px;  
-          height: 150px;  
-          line-height: 150px;
-            text-align: center;
+   style="display:flex;
+          align-items:center;
+          justify-content:center;
+          background-color:#F4A460;
+          width:150px;
+          height:150px;
+          text-align:center;
           color:white;
-            font-size: 22px;
-            font-weight: bold;
-          padding:15px 25px;
+          font-size:18px;
+          font-weight:bold;
           text-decoration:none;
-          border-radius:24px;
-          font-weight:bold;">
+          border-radius:24px;">
    Mapping
 </a>
 
