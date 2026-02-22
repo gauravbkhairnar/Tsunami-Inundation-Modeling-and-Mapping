@@ -17,7 +17,7 @@ Here tsunami model part is not been considered.
           background-color:#00BFFF;
           width: 150px;  
           height: 150px;  
-          line-height: 200px;
+          line-height: 150px;
             text-align: center;
           color:white;
             font-size: 22px;
