@@ -52,4 +52,5 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
  <img width="100%" height="927" alt="image" src="https://github.com/user-attachments/assets/ba69ecd4-1f09-435a-9cd5-a3e1a81ad6bb" />
 </div>
 
-
+> **__Important Note:__**
+> If you have your own Bathymetry and Topography DEM data in point shapefile format then skip step 1 and 2
