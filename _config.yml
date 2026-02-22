@@ -5,17 +5,3 @@ github: null
 
 sass:
   style: compressed
-<a href="preprocessing/" 
-   style="display:inline-flex;
-          align-items:center;
-          justify-content:center;
-          width:150px;
-          height:150px;
-          background:#f57c00;
-          color:white;
-          text-decoration:none;
-          border-radius:8px;
-          font-weight:bold;
-          transition:0.3s;">
-   Preprocessing
-</a>
