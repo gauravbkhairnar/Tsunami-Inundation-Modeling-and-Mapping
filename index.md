@@ -15,7 +15,12 @@ Here tsunami model part is not been considered.
 <a href="preprocessing/" 
    style="display:inline-block;
           background-color:#00BFFF;
+          width: 200px;  
+          height: 200px;  
+          line-height: 200px;
           color:white;
+            font-size: 22px;
+            font-weight: bold;
           padding:15px 25px;
           text-decoration:none;
           border-radius:24px;
