@@ -11,8 +11,8 @@ This training program focuses on the complete workflow — from terrain preparat
 Here tsunami model part is not been considered.
 </div>
 
-< __**Important Note__**
-<The tsunami numerical modeling component is not documented in this study.
+> __**Important Note__**<br>
+>The tsunami numerical modeling component is not documented in this study.
 
 <div style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap;">
 <a href="preprocessing/" 
