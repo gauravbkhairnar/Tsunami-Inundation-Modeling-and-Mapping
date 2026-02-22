@@ -74,6 +74,7 @@ Here tsunami model part is not been considered.
           border-radius:24px;">
    Mapping
 </a>
+</div>
 
 This Document contains 4 section as below: [Preprocessing](preprocessing/) and [Mapping](mapping/)
 Preprocessing conains merging of Bathymetry and Topographic data. 
