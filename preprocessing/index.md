@@ -8,14 +8,13 @@ Data inputs:
 
 Here as a test case we are using GEBCO bathymetry and SRTM topography data
 
-> **__Important Note:__**
-> 
+
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:12px; 
             margin:15px 0;">
-
+<strong>Important Note:</strong><br>
 Both data should be in same coordinate system (WGS 84: EPSG:4326)
 </div>
 
@@ -65,7 +64,6 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
             color:white; 
             padding:12px; 
             margin:15px 0;">
-</div>
 
 <strong>Important Note:</strong><br>
 If you have your own Bathymetry and Topography DEM data in point shapefile format then skip Step 1 and 2.
