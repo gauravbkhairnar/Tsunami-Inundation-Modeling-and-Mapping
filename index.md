@@ -14,11 +14,11 @@ Here tsunami model part is not been considered.
 
 <a href="preprocessing/" 
    style="display:inline-block;
-          background-color:#f57c00;
+          background-color:#00BFFF;
           color:white;
           padding:15px 25px;
           text-decoration:none;
-          border-radius:4px;
+          border-radius:24px;
           font-weight:bold;">
    Preprocessing
 </a>
