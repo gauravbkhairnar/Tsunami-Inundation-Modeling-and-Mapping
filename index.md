@@ -11,6 +11,9 @@ This training program focuses on the complete workflow — from terrain preparat
 Here tsunami model part is not been considered.
 </div>
 
+< __**Important Note__**
+<The tsunami numerical modeling component is not documented in this study.
+
 <div style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap;">
 <a href="preprocessing/" 
    style="display:flex;
@@ -76,6 +79,4 @@ Here tsunami model part is not been considered.
 </a>
 </div>
 
-This Document contains 4 section as below: [Preprocessing](preprocessing/) and [Mapping](mapping/)
-Preprocessing conains merging of Bathymetry and Topographic data. 
-Please click on perticular sections for details
+
