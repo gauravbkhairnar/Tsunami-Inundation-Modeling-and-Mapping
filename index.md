@@ -28,8 +28,56 @@ Here tsunami model part is not been considered.
           font-weight:bold;">
    Preprocessing
 </a>
+<a href="preprocessing/" 
+   style="display:inline-block;
+          background-color:#FFC40C;
+          width: 150px;  
+          height: 150px;  
+          line-height: 150px;
+            text-align: center;
+          color:white;
+            font-size: 22px;
+            font-weight: bold;
+          padding:15px 25px;
+          text-decoration:none;
+          border-radius:24px;
+          font-weight:bold;">
+   Flood Layer Generation
+</a>
 
+<a href="preprocessing/" 
+   style="display:inline-block;
+          background-color:#03C03C;
+          width: 150px;  
+          height: 150px;  
+          line-height: 150px;
+            text-align: center;
+          color:white;
+            font-size: 22px;
+            font-weight: bold;
+          padding:15px 25px;
+          text-decoration:none;
+          border-radius:24px;
+          font-weight:bold;">
+   Building Level Evacuation Routes and Analysis
+</a>
 
+<a href="preprocessing/" 
+   style="display:inline-block;
+          background-color:#FDF5E6;
+          width: 150px;  
+          height: 150px;  
+          line-height: 150px;
+            text-align: center;
+          color:white;
+            font-size: 22px;
+            font-weight: bold;
+          padding:15px 25px;
+          text-decoration:none;
+          border-radius:24px;
+          font-weight:bold;">
+   Mapping
+</a>
 
 This Document contains 4 section as below: [Preprocessing](preprocessing/) and [Mapping](mapping/)
 Preprocessing conains merging of Bathymetry and Topographic data. 
