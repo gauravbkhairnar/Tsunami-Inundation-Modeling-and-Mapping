@@ -2,16 +2,8 @@ Tsunamis are among the most destructive coastal hazards, capable of causing larg
 
 This training program focuses on the complete workflow — from terrain preparation to evacuation route mapping — using GIS tools and numerical modelling.
 
-<div style="background-color:#f57c00; 
-            border-left:5px solid #fff8e1; 
-            color:white; 
-            padding:12px; 
-            margin:15px 0;">
-<strong>Important Note:</strong><br />
-Here tsunami model part is not been considered.
-</div>
 
-> __**Important Note__**<br>
+> **__Important Note__**<br>
 >The tsunami numerical modeling component is not documented in this study.
 
 <div style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap;">
