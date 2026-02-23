@@ -8,6 +8,22 @@ Data inputs:
 
 Here as a test case we are using GEBCO bathymetry and SRTM topography data
 
+<div style="background-color:#f57c00; 
+            border-left:5px solid #fff8e1; 
+            color:white; 
+            padding:12px; 
+            margin:15px 0;">
+
+<strong>Important Note:</strong><br>
+If you have your own Bathymetry and Topography DEM data in **point shapefile** format then skip Step 1 and 2.
+
+</div>
+
+## 1. Add Layer into QGIS
+### If Bathymetry and Topography data is in raster format:
+Layer --> Add Layer --> Add Raster Layer.. 
+<img width="932" height="715" alt="image" src="https://github.com/user-attachments/assets/2990940a-e9aa-423f-80e3-2de9dfa7172b" style="border:1px solid #ccc; padding:4px;" />
+
 
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
@@ -59,13 +75,4 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
 <br>
 
  
-<div style="background-color:#f57c00; 
-            border-left:5px solid #fff8e1; 
-            color:white; 
-            padding:12px; 
-            margin:15px 0;">
 
-<strong>Important Note:</strong><br>
-If you have your own Bathymetry and Topography DEM data in point shapefile format then skip Step 1 and 2.
-
-</div>
