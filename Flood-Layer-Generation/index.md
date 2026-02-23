@@ -1,4 +1,7 @@
+---
+title: Flood Layer Generation
 nav_exclude: true
+---
 # Flood Layer Generation
 
 The objective of this exercise is to generate a flood zone using output from the ComMIT model.
