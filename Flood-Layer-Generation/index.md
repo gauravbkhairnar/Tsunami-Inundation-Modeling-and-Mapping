@@ -33,7 +33,7 @@ Select the directory and select the downloaded **Flood_Layer_Generation.model3**
    Scroll down in processing toolbox --> Double Click on **Models** --> Click on **Flood_Layer_Generation**
    <img width="100%" alt="model" src="https://github.com/user-attachments/assets/d02b8a99-8d15-4f86-a5a7-672a6bee69df" style="border:1px solid #ccc; padding:4px;"/>
 
-Select the Raster layer by dropping down **Input Inundation Raster Layer** --> Give the area in square meters for removing holes --> if you want to save output flood layers then pls ckick on <img width="100%" alt="image" src="https://github.com/user-attachments/assets/af293a4d-9f30-41d9-bced-d9d2d5453710" /> and click on **Save to File..** and locate directory and click save. --> Click **Run**
+Select the Raster layer by dropping down **Input Inundation Raster Layer** --> Give the area in square meters for removing holes --> if you want to save output flood layers then pls ckick on <img width="32" height="31" alt="image" src="https://github.com/user-attachments/assets/af293a4d-9f30-41d9-bced-d9d2d5453710" /> and click on **Save to File..** and locate directory and click save. --> Click **Run**
 
 <img width="100%" alt="model2" src="https://github.com/user-attachments/assets/09e3795e-4261-4b1a-b0c2-09e638ad3fbb" style="border:1px solid #ccc; padding:4px;" />
 
