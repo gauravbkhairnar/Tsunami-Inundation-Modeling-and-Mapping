@@ -27,7 +27,7 @@ Select the directory and select the downloaded **Flood_Layer_Generation.model3**
 
 4. Add ComMIT output to QGIS:
    Layers --> Add Layer --> Add Raster Layer..
-   <img"100%" alt="image" src="https://github.com/user-attachments/assets/2990940a-e9aa-423f-80e3-2de9dfa7172b" style="border:1px solid #ccc; padding:4px;" />
+   <img width="100%" alt="image" src="https://github.com/user-attachments/assets/2990940a-e9aa-423f-80e3-2de9dfa7172b" style="border:1px solid #ccc; padding:4px;" />
 
 5. Flood Layer Generation:
    Scroll down in processing toolbox --> Double Click on **Models** --> Click on **Flood_Layer_Generation**
