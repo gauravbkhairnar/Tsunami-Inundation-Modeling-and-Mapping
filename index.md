@@ -22,7 +22,7 @@ This training program focuses on the complete workflow — from terrain preparat
           border-radius:24px;">
    Merging Bathymetry and Topography data
 </a>
-<a href="preprocessing/" 
+<a href="Flood-Layer-Generation/" 
    style="display:flex;
           align-items:center;
           justify-content:center;
