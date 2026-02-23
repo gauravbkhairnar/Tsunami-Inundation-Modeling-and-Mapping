@@ -15,7 +15,7 @@ Here as a test case we are using GEBCO bathymetry and SRTM topography data
             margin:15px 0;">
 
 <strong>Important Note:</strong><br>
-If you have your own Bathymetry and Topography DEM data in **point shapefile** format then skip Step 1 and 2.
+If you have your own Bathymetry and Topography DEM data in "Point Shapefile" format then skip Step 1 and 2.
 
 </div>
 
@@ -34,7 +34,8 @@ Layer --> Add Layer --> Add Raster Layer..
 Both data should be in same coordinate system (WGS 84: EPSG:4326)
 </div>
 
-## Reprojection:
+## 2. Reprojection:
+If your Bathymetry and Topography layers are already in WGS 84: EPSG:4326, then ignore this step
 Go to ‘**Raster**’ tab → **Projections** → **Warp (reprojection)**
 <br> 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/671a2171-9cfe-4dcd-8619-e654a90d2c3b" style="border:1px solid #ccc; padding:4px;" />
