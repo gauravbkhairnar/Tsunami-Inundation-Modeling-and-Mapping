@@ -20,7 +20,7 @@ This training program focuses on the complete workflow — from terrain preparat
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   Preprocessing
+   Merging Bathymetry and Topography data
 </a>
 <a href="preprocessing/" 
    style="display:flex;
