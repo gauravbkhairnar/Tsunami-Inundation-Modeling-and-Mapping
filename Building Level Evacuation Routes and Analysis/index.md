@@ -41,12 +41,22 @@ Add layer --> Add Delimited text layer
 <br>
 <img width="940" height="505" alt="image" src="https://github.com/user-attachments/assets/bcb68d61-d37c-48fc-8bce-acbf0136eae7" />
 <br>
+select file path and select csv file
 
-
-
-
-
-
+Click on **Geometry Definition** section --> **Well known text (WKT)** --> select geometry in **Geometry field** and **geometry CRS** : EPSG 4326-WGS84
+Click Add (**This step will take more time.. As you are adding more than 10 million buildings in QGIS**)
+<br>
+<img width="940" height="592" alt="image" src="https://github.com/user-attachments/assets/ea6ea5dd-b2f3-41e2-91d9-c4eb6a4a4b05" />
+<br>
+Once data successfully added in QGIS --> click on Select layer icon and draw polygon which is of your area of interest. 
+<br>
+<img width="940" height="505" alt="image" src="https://github.com/user-attachments/assets/7c5b5324-db1b-42d7-89ea-b18a718b1889" />
+<br>
+After selection, Export it into .shp file by right clicking on layer in layer pannel --> Export --> Export Selected features.
+<img width="940" height="1070" alt="image" src="https://github.com/user-attachments/assets/7589ee86-00f8-496c-9e7d-66811d00fff2" />
+<br>
+<img width="928" height="1039" alt="image" src="https://github.com/user-attachments/assets/d554e356-c16a-4606-81cc-a7a17719c05d" />
+<br>
 
 
 
