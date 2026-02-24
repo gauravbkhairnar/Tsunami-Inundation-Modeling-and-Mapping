@@ -3,8 +3,7 @@
 2. Installing QGIS Plugin
 3. Building level evacuation analysis
 
-# 1. Downloading Building footprints
-## Open Buildings V3
+# 1. Downloading Building footprints (Open Buildings V3)
 The dataset contains 1.8 billion building detections, across an inference area of 58M km2 covering Africa, South Asia, South-East Asia, Latin America and the Caribbean. The current dataset is in its 3rd version. Building footprint data derived from the Google Open Buildings dataset (v3), © Google, licensed under CC BY 4.0.
 
 
@@ -15,10 +14,10 @@ The dataset contains 1.8 billion building detections, across an inference area o
             margin:15px 0;">
 
 <strong>Important Notes regarding open building dataset:</strong><br>
-•	AI-derived
-•	May miss small or rural structures
-•	Has confidence scores
-•	Should not be treated as cadastral truth
+•	AI-derived<br>
+•	May miss small or rural structures<br>
+•	Has confidence scores<br>
+•	Should not be treated as cadastral truth<br>
 </div>
 
 Google Open Building Data is available on the link below: <br>
