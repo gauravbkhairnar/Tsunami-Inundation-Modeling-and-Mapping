@@ -42,8 +42,16 @@ Add layer --> Add Delimited text layer
 <br>
 select file path and select csv file
 
-Click on **Geometry Definition** section --> **Well known text (WKT)** --> select geometry in **Geometry field** and **geometry CRS** : EPSG 4326-WGS84
-Click Add (**This step will take more time.. As you are adding more than 10 million buildings in QGIS**)
+Click on **Geometry Definition** section --> **Well known text (WKT)** --> select geometry in **Geometry field** and **geometry CRS** : EPSG 4326-WGS84 --> Click **Add**
+<div style="background-color:#f57c00; 
+            border-left:5px solid #fff8e1; 
+            color:white; 
+            padding:12px; 
+            margin:15px 0;">
+
+<strong>**This step will take more time.. As you are adding more than 10 million buildings in QGIS**</strong><br>
+</div>
+
 <br>
 <img width="940" height="592" alt="image" src="https://github.com/user-attachments/assets/ea6ea5dd-b2f3-41e2-91d9-c4eb6a4a4b05" />
 <br>
