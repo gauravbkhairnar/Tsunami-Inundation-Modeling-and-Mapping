@@ -1,11 +1,8 @@
 title: Tsunami Inundation Modeling and Mapping
 markdown: kramdown
-theme: minima
+theme: null
 github: null
-show_excerpts: false
-minima:
-  show_excerpts: false
+
+
 sass:
   style: compressed
-minima:
-  social_links: false
