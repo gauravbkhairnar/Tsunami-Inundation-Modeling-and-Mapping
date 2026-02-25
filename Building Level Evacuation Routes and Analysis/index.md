@@ -1,12 +1,12 @@
+<div style="max-width:1400px; 
+            margin:40px auto; 
+            padding:0 30px; 
+            font-family:Arial, sans-serif; 
+            line-height:1.7;">
 
-<html>
-<head>
-<title>Building Level Evacuation Routes and Analysis</title>
-</head>
-
-<body style="font-family: Arial, sans-serif; line-height:1.6; margin:40px;">
-
-<h1 style="text-align:center;">Building-Level Evacuation Routes and Analysis</h1>
+<h1 style="text-align:center; margin-bottom:30px;">
+Building-Level Evacuation Routes and Analysis
+</h1>
 
 <p>
 This stage of the workflow focuses on preparing building footprint data and integrating it into QGIS 
@@ -20,28 +20,30 @@ for building-level evacuation route analysis.
 <li>Building-Level Evacuation Analysis</li>
 </ol>
 
-<hr>
+<hr style="margin:30px 0;">
 
 <h2>1. Downloading Building Footprints (Open Buildings V3)</h2>
 
 <p>
-The Open Buildings V3 dataset contains <strong>1.8 billion building detections</strong> across an inference area of 
-<strong>58 million km²</strong>, covering Africa, South Asia, South-East Asia, Latin America, and the Caribbean.
+The Open Buildings V3 dataset contains <strong>1.8 billion building detections</strong> across 
+an inference area of <strong>58 million km²</strong>, covering Africa, South Asia, 
+South-East Asia, Latin America, and the Caribbean.
 </p>
 
 <p>
-Building footprint data derived from the Google Open Buildings dataset (v3), © Google, licensed under CC BY 4.0.
+Building footprint data derived from the Google Open Buildings dataset (v3), © Google, 
+licensed under CC BY 4.0.
 </p>
 
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:15px; 
-            margin:20px 0; 
+            margin:25px 0; 
             border-radius:6px;">
 
 <strong>Important Notes Regarding Open Buildings Dataset:</strong>
-<ul>
+<ul style="margin-top:10px;">
 <li>AI-derived dataset</li>
 <li>May miss small or rural structures</li>
 <li>Includes confidence scores</li>
@@ -50,8 +52,7 @@ Building footprint data derived from the Google Open Buildings dataset (v3), © 
 </div>
 
 <p>
-Google Open Building Data is available at:
-<br>
+Google Open Building Data is available at:<br>
 <a href="https://sites.research.google/gr/open-buildings/" target="_blank">
 https://sites.research.google/gr/open-buildings/
 </a>
@@ -59,18 +60,22 @@ https://sites.research.google/gr/open-buildings/
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/94822bf2-cd6d-429e-87ec-6e5819c4d68f" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/94822bf2-cd6d-429e-87ec-6e5819c4d68f" width="100%">
+</div>
 
 <br><br>
 
 <p>
-Click on the <strong>"Download here"</strong> button.
+Click on the <strong>"Download here"</strong> button.  
 You can search your Area of Interest (AOI) or zoom into your area and select the required tile.
 </p>
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/5703cc5d-42a1-480b-8c25-2fb562459964" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/5703cc5d-42a1-480b-8c25-2fb562459964" width="100%">
+</div>
 
 <br><br>
 
@@ -79,26 +84,24 @@ Download the file named: <strong>xxx_buildings.csv.gz</strong><br>
 After downloading, extract the file to obtain the CSV file.
 </p>
 
-<hr>
+<hr style="margin:30px 0;">
 
 <h2>2. Adding Building Data into QGIS</h2>
 
-<h3>Step 1: Open QGIS</h3>
-<p>Launch QGIS software.</p>
+<p><strong>Step 1:</strong> Open QGIS.</p>
 
-<h3>Step 2: Add Delimited Text Layer</h3>
-<p>
-Go to:<br>
-<strong>Layer → Add Layer → Add Delimited Text Layer</strong>
-</p>
+<p><strong>Step 2:</strong> Navigate to:</p>
+<p><strong>Layer → Add Layer → Add Delimited Text Layer</strong></p>
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/bcb68d61-d37c-48fc-8bce-acbf0136eae7" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/bcb68d61-d37c-48fc-8bce-acbf0136eae7" width="100%">
+</div>
 
 <br><br>
 
-<h3>Step 3: Configure Layer Settings</h3>
+<p><strong>Step 3:</strong> Configure Layer Settings:</p>
 
 <ul>
 <li>Select the extracted CSV file</li>
@@ -112,7 +115,7 @@ Go to:<br>
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:15px; 
-            margin:20px 0; 
+            margin:25px 0; 
             border-radius:6px;">
 
 <strong>Note:</strong><br><br>
@@ -121,15 +124,13 @@ This step may take considerable time as the dataset may contain more than 10 mil
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/ea6ea5dd-b2f3-41e2-91d9-c4eb6a4a4b05" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/ea6ea5dd-b2f3-41e2-91d9-c4eb6a4a4b05" width="100%">
+</div>
 
-<hr>
+<hr style="margin:30px 0;">
 
 <h2>3. Selecting Area of Interest (AOI)</h2>
-
-<p>
-After the dataset is successfully loaded:
-</p>
 
 <ol>
 <li>Activate the <strong>Select Features Tool</strong></li>
@@ -138,9 +139,11 @@ After the dataset is successfully loaded:
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/7c5b5324-db1b-42d7-89ea-b18a718b1889" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/7c5b5324-db1b-42d7-89ea-b18a718b1889" width="100%">
+</div>
 
-<hr>
+<hr style="margin:30px 0;">
 
 <h2>4. Export Selected Buildings</h2>
 
@@ -152,13 +155,17 @@ After the dataset is successfully loaded:
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/7589ee86-00f8-496c-9e7d-66811d00fff2" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/7589ee86-00f8-496c-9e7d-66811d00fff2" width="100%">
+</div>
 
 <br><br>
 
-<img src="https://github.com/user-attachments/assets/d554e356-c16a-4606-81cc-a7a17719c05d" width="900">
+<div style="text-align:center;">
+<img src="https://github.com/user-attachments/assets/d554e356-c16a-4606-81cc-a7a17719c05d" width="100%">
+</div>
 
-<hr>
+<hr style="margin:30px 0;">
 
 <h2>Reference</h2>
 
@@ -169,5 +176,4 @@ Keysers, D., Neumann, M., Cisse, M., & Quinn, J.A. (2021).
 arXiv:2107.12283.
 </p>
 
-</body>
-</html>
+</div>
