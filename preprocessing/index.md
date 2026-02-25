@@ -10,8 +10,8 @@ to generate a continuous elevation surface. The resulting raster will serve as t
 <strong>C-grid input</strong> for the ComMIT tsunami model.
 </p>
 
-<h3>Data Inputs</h3>
 
+<h3>Data Inputs</h3>
 <ol>
 <li>Bathymetry (gridded raster or point data)</li>
 <li>Topography (Digital Elevation Model – DEM)</li>
@@ -35,28 +35,29 @@ For demonstration purposes, this workflow utilizes
 <strong>Important:</strong><br>
 If bathymetry and topography data are already available in point shapefile format, 
 skip Steps 1 and 2.
-
 </div>
 
 
  
 
-## 1. Add Layer into QGIS
-### If Bathymetry and Topography data is in raster format:
-Layer --> Add Layer --> Add Raster Layer.. 
+<h2>1. Add Layer into QGIS</h2><br>
+If Bathymetry and Topography data is in raster format:<br>
+Layer --> Add Layer --> Add Raster Layer.. <br>
 <img width="932" height="715" alt="image" src="https://github.com/user-attachments/assets/2990940a-e9aa-423f-80e3-2de9dfa7172b" style="border:1px solid #ccc; padding:4px;" />
-
+<br>
 
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:12px; 
             margin:15px 0;">
+            <br>
 <strong>Important Note:</strong><br>
 Both data should be in same coordinate system (WGS 84: EPSG:4326)
 </div>
-
-## 2. Reprojection:
+<br>
+<br>
+<h2>2. Reprojection:</h2>
 If your Bathymetry and Topography layers are already in WGS 84: EPSG:4326, then ignore this step
 Go to ‘**Raster**’ tab → **Projections** → **Warp (reprojection)**
 <br> 
