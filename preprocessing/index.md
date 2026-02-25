@@ -5,7 +5,7 @@
 <h3>Objective</h3>
 
 <p>
-            <div class="container">
+            <div style="max-width:900px; margin:0 auto; padding:0 40px;">
 The objective of this exercise is to interpolate bathymetry and topography datasets 
 to generate a continuous elevation surface. The resulting raster will serve as the 
 <strong>C-grid input</strong> for the ComMIT tsunami model.</div>
