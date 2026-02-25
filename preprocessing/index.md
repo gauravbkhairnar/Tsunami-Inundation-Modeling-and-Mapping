@@ -7,9 +7,10 @@ The objective of this exercise is to interpolate Bathymetry and topography. The 
 </h2>
 
 <h2 style="text-align:center; margin-top:30px; margin-bottom:30px;"><p>
-Data inputs:
-1. Bathymetry gridded raster or points data
-2. Topography (Digital Elevation Model- DEM)
+Data inputs:<br>
+<p>
+1. Bathymetry gridded raster or points data<br>
+2. Topography (Digital Elevation Model- DEM)</p>
 <br>
 Here as a test case we are using GEBCO bathymetry and SRTM topography data</p></h2>
 
@@ -17,7 +18,7 @@ Here as a test case we are using GEBCO bathymetry and SRTM topography data</p></
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:12px; 
-            margin:15px 0;max-width:600px;"
+            margin:15px 0;border-radius:6px;"
             >
 
 <strong>Important Note:</strong><br>
