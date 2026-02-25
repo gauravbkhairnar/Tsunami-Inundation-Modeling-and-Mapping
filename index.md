@@ -1,5 +1,5 @@
 <h1 style="text-align:center;">
- Tsunami-Inundation-Modeling-and-
+ Tsunami-Inundation-Modeling-and-Mapping
 </h1>
  
 
