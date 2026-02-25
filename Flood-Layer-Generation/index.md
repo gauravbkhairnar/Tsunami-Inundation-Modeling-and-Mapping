@@ -101,6 +101,8 @@ style="max-width:80%; border:1px solid #ccc; padding:6px;">
 <p>
 After successful execution, two new layers will be added to the 
 <strong>Layers Panel</strong>, representing the generated flood zone outputs.
+one is flood layer and second is buffered distance of 200m from the flood layer.
+  
 </p>
 
 </div>
