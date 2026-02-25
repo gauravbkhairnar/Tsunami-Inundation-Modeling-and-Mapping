@@ -2,7 +2,7 @@
 Flood Layer Generation
 </h1>
 
-<div style="max-width:900px; margin:0 auto; padding:0 30px; line-height:1.7;">
+<div style="max-width:1400px; margin:0 auto; padding:0 30px; line-height:1.7;">
 
 <h2>Objective</h2>
 
