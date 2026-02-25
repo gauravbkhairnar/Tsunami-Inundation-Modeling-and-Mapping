@@ -2,13 +2,12 @@
             Merging of Bathymetry and Topography data 
 </h1>
 
+<div style="max-width:900px; margin:0 auto; padding:0 20px;">
 <h3>Objective</h3>
-
-<p>
-            <div style="max-width:900px; margin:0 auto; padding:0 40px;">
+<p>          
 The objective of this exercise is to interpolate bathymetry and topography datasets 
 to generate a continuous elevation surface. The resulting raster will serve as the 
-<strong>C-grid input</strong> for the ComMIT tsunami model.</div>
+<strong>C-grid input</strong> for the ComMIT tsunami model.
 </p>
 
 <h3>Data Inputs</h3>
@@ -38,7 +37,7 @@ If bathymetry and topography data are already available in point shapefile forma
 Steps 1 and 2 may be skipped.
 
 </div>
-
+</div>
 
 
 <div style="background-color:#f57c00; 
