@@ -10,8 +10,9 @@ Tsunamis are among the most destructive coastal hazards, capable of causing larg
 This training program focuses on the complete workflow — from terrain preparation to evacuation route mapping — using GIS tools and numerical modelling.
 </p></h2>
 
-> **__Important Note__**<br>
->The tsunami numerical modeling component is not documented in this study.
+<h3 style="text-align:center;">
+Important Note
+The tsunami numerical modeling component is not documented in this study.</h3>
 
 <div style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap;">
 <a href="preprocessing/" 
@@ -19,7 +20,7 @@ This training program focuses on the complete workflow — from terrain preparat
           align-items:center;
           justify-content:center;
           background-color:#00BFFF;
-          width:150px;
+          width:350px;
           height:150px;
           text-align:center;
           color:white;
@@ -35,7 +36,7 @@ This training program focuses on the complete workflow — from terrain preparat
           align-items:center;
           justify-content:center;
           background-color:#F2C1D1;
-          width:150px;
+          width:350px;
           height:150px;
           text-align:center;
           color:white;
@@ -51,7 +52,7 @@ This training program focuses on the complete workflow — from terrain preparat
           align-items:center;
           justify-content:center;
           background-color:#FFC40C;
-          width:150px;
+          width:350px;
           height:150px;
           text-align:center;
           color:white;
@@ -67,7 +68,7 @@ This training program focuses on the complete workflow — from terrain preparat
           align-items:center;
           justify-content:center;
           background-color:#03C03C;
-          width:150px;
+          width:350px;
           height:150px;
           text-align:center;
           color:white;
