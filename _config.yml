@@ -3,6 +3,5 @@ markdown: kramdown
 theme: just-the-docs
 github: null
 
-
 sass:
   style: compressed
