@@ -84,31 +84,32 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
  click back by clicking <img width="37" height="35" alt="image" src="https://github.com/user-attachments/assets/a984728c-2655-4ff5-936b-10f70ede3a0c" /> this icon → scoll down and save the reprojected file by clicking ‘save to file tab’. → Click “Run”
  <br>
  <div style="text-align:center;">
- <img  width="532" height="315"  alt="image" src="https://github.com/user-attachments/assets/e8755035-78b1-4c87-90f5-ee238fa3743c" style="border:1px solid #ccc; padding:4px;"/>
- </div>
- 
- <br>
+<img width="688" height="552" alt="Screenshot 2026-02-25 171040" src="https://github.com/user-attachments/assets/f5dfaf8d-f233-4b17-80c8-74f7ff94931b" style="border:1px solid #ccc; padding:4px;"/>
+</div>
+<br>
 
-  <div style="text-align:center;">
- <img  width="532" height="315"  alt="image" src="https://github.com/user-attachments/assets/cc33e32c-d71b-4231-9d9a-d7a5f9627105" style="border:1px solid #ccc; padding:4px;" />
-  </div>
+<div style="text-align:center;">
+<img width="690" height="555" alt="Screenshot 2026-02-25 171715" src="https://github.com/user-attachments/assets/d2ad49d6-95a0-40fd-89d9-b7235818876d" style="border:1px solid #ccc; padding:4px;" />
+ </div>
   
   <br>
 
  <div>
- <img  width="932" height="715"   alt="image" src="https://github.com/user-attachments/assets/56586003-fa3e-40a5-bad5-9832ec5697a8" style="border:1px solid #ccc; padding:4px;" />
+<img width="690" height="555" alt="Screenshot 2026-02-25 171911" src="https://github.com/user-attachments/assets/991d8001-e600-47c2-81d4-8ebc0e7968c3" style="border:1px solid #ccc; padding:4px;" />
  </div>
  
  <br>
  
  <div>
-  <img  width="932" height="715"   alt="image" src="https://github.com/user-attachments/assets/36074c6d-143f-4a4b-910c-08292e46f466" style="border:1px solid #ccc; padding:4px;"/>
+<img width="690" height="555" alt="Screenshot 2026-02-25 172129" src="https://github.com/user-attachments/assets/09762ba8-3235-4c41-acc6-05f45cd01e01" style="border:1px solid #ccc; padding:4px;"/>
+
  </div>
  
   <br>
 
  <div>
- <img  width="932" height="715"   alt="image" src="https://github.com/user-attachments/assets/ba69ecd4-1f09-435a-9cd5-a3e1a81ad6bb" style="border:1px solid #ccc; padding:4px;"/>
+<img width="690" height="555" alt="Screenshot 2026-02-25 172541" src="https://github.com/user-attachments/assets/8d8df2a9-23f4-46e3-ac82-c7200f4a3a77" style="border:1px solid #ccc; padding:4px;"/>
+
 </div>
 
 
