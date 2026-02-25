@@ -45,7 +45,9 @@ skip Steps 1 and 2.
 If Bathymetry and Topography data is in raster format:<br>
 Layer --> Add Layer --> Add Raster Layer.. <br>
 <br>
+<div style="text-align:center;">
 <img width="932" height="715" alt="image" src="https://github.com/user-attachments/assets/2990940a-e9aa-423f-80e3-2de9dfa7172b" style="border:1px solid #ccc; padding:4px;" />
+</div>
 <br>
 
 
@@ -70,7 +72,9 @@ skip Steps 1 and 2.
 If your Bathymetry and Topography layers are already in WGS 84: EPSG:4326, then ignore this step.<br>
 Go to Raster tab → Projections→ Warp (reprojection)</p>
 <br> 
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/671a2171-9cfe-4dcd-8619-e654a90d2c3b" style="border:1px solid #ccc; padding:4px;" />
+<div style="text-align:center;">
+<img  width="632" height="515"  alt="image" src="https://github.com/user-attachments/assets/671a2171-9cfe-4dcd-8619-e654a90d2c3b" style="border:1px solid #ccc; padding:4px;" />
+</div>
 <br>
 Input layer → Select your raster layer
 Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="https://github.com/user-attachments/assets/a1102a5c-18f9-49e2-8e1f-28646ca28e31" />
@@ -80,31 +84,31 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
  click back by clicking <img width="37" height="35" alt="image" src="https://github.com/user-attachments/assets/a984728c-2655-4ff5-936b-10f70ede3a0c" /> this icon → scoll down and save the reprojected file by clicking ‘save to file tab’. → Click “Run”
  <br>
  <div style="text-align:center;">
- <img width="100%" alt="image" src="https://github.com/user-attachments/assets/e8755035-78b1-4c87-90f5-ee238fa3743c" style="border:1px solid #ccc; padding:4px;"/>
+ <img  width="532" height="315"  alt="image" src="https://github.com/user-attachments/assets/e8755035-78b1-4c87-90f5-ee238fa3743c" style="border:1px solid #ccc; padding:4px;"/>
  </div>
  
  <br>
 
   <div style="text-align:center;">
- <img width="100%" alt="image" src="https://github.com/user-attachments/assets/cc33e32c-d71b-4231-9d9a-d7a5f9627105" style="border:1px solid #ccc; padding:4px;" />
+ <img  width="532" height="315"  alt="image" src="https://github.com/user-attachments/assets/cc33e32c-d71b-4231-9d9a-d7a5f9627105" style="border:1px solid #ccc; padding:4px;" />
   </div>
   
   <br>
 
  <div>
- <img width="100%"  alt="image" src="https://github.com/user-attachments/assets/56586003-fa3e-40a5-bad5-9832ec5697a8" style="border:1px solid #ccc; padding:4px;" />
+ <img  width="932" height="715"   alt="image" src="https://github.com/user-attachments/assets/56586003-fa3e-40a5-bad5-9832ec5697a8" style="border:1px solid #ccc; padding:4px;" />
  </div>
  
  <br>
  
  <div>
-  <img width="100%"  alt="image" src="https://github.com/user-attachments/assets/36074c6d-143f-4a4b-910c-08292e46f466" style="border:1px solid #ccc; padding:4px;"/>
+  <img  width="932" height="715"   alt="image" src="https://github.com/user-attachments/assets/36074c6d-143f-4a4b-910c-08292e46f466" style="border:1px solid #ccc; padding:4px;"/>
  </div>
  
   <br>
 
  <div>
- <img width="100%"  alt="image" src="https://github.com/user-attachments/assets/ba69ecd4-1f09-435a-9cd5-a3e1a81ad6bb" style="border:1px solid #ccc; padding:4px;"/>
+ <img  width="932" height="715"   alt="image" src="https://github.com/user-attachments/assets/ba69ecd4-1f09-435a-9cd5-a3e1a81ad6bb" style="border:1px solid #ccc; padding:4px;"/>
 </div>
 
 
