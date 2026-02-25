@@ -1,5 +1,11 @@
-# Flood Layer Generation
+<h1 style="text-align:center; margin-top:30px; margin-bottom:30px;">
+            Flood Layer Generation
+</h1>
 
+<div style="max-width:1400px; margin:0 auto; padding:0 10px;">
+
+<h3>Objective</h3>
+<p>
 The objective of this exercise is to generate a flood zone using output from the ComMIT model.
 
 Data inputs:
@@ -12,18 +18,18 @@ Data inputs:
             margin:15px 0;">
 
 <strong>Important Note:</strong><br>
- 
+</p>
 </div>
 
-1. Download the 'Flood_Layer_Generation.model3' file from here 
-2. Open QGIS --> Open Processing Toolbox
-3. Click on this icon <img width="32" height="31" alt="image" src="https://github.com/user-attachments/assets/5c3fd9b0-5de8-4957-bebb-6eb9dc093ead" />
+1. Download the 'Flood_Layer_Generation.model3' file from [here](https://indiannational-my.sharepoint.com/:u:/g/personal/gb_khairnar-p_incois_gov_in/IQBGrV2RltbzQIKHZYlADkx3AeDDSrvKzrMrfnETn_mIsfk?e=Io2Yvv) <br>
+2. Open QGIS --> Open Processing Toolbox <br>
+3. Click on this icon <img width="32" height="31" alt="image" src="https://github.com/user-attachments/assets/5c3fd9b0-5de8-4957-bebb-6eb9dc093ead" /><br>
 <img width="100%" alt="processingtoobox" src="https://github.com/user-attachments/assets/152c6524-5b27-4b80-8ef0-7ae67a495da3" style="border:1px solid #ccc; padding:4px;"  />
+<br>
+Click on Add Model to Toolbox <br>
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/8c26e05c-b0b7-4e70-8cc6-7bf6851b1273" style="border:1px solid #ccc; padding:4px;"  /><br>
 
-Click on **Add Model to Toolbox** <br>
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/8c26e05c-b0b7-4e70-8cc6-7bf6851b1273" style="border:1px solid #ccc; padding:4px;"  />
-
-Select the directory and select the downloaded **Flood_Layer_Generation.model3** model --> Open.
+Select the directory and select the downloaded Flood_Layer_Generation.model3 model --> Open.<br>
 
 4. Add ComMIT output to QGIS:
    Layers --> Add Layer --> Add Raster Layer..
@@ -41,7 +47,7 @@ After a successful run, 2 Layers will be added in the Layer Panel.
 
 
 
-
+</div>
 
 
 
