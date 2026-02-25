@@ -7,11 +7,11 @@
 <p>
 Tsunamis are among the most destructive coastal hazards, capable of causing large-scale inundation and infrastructure damage within minutes. Accurate modelling and mapping of tsunami inundation are essential for risk assessment, evacuation planning, and disaster preparedness.
 
-This training program focuses on the complete workflow — from terrain preparation to evacuation route mapping — using GIS tools and numerical modelling.
+This training program focuses on the complete workflow from terrain preparation to evacuation route mapping using GIS tools and numerical modelling.
 </p></h2>
 
 <h3 style="text-align:center;">
-Important Note
+Important Note: <br>
 The tsunami numerical modeling component is not documented in this study.</h3>
 
 <div style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap;">
@@ -28,7 +28,7 @@ The tsunami numerical modeling component is not documented in this study.</h3>
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   Merging Bathymetry and Topography data
+   1. <br> Merging Bathymetry and Topography data
 </a>
 
 <a 
@@ -44,7 +44,7 @@ The tsunami numerical modeling component is not documented in this study.</h3>
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   Tsunami Modelling
+   2. <br> Tsunami Modelling
 </a>
 
 <a href="Flood-Layer-Generation/" 
@@ -60,7 +60,7 @@ The tsunami numerical modeling component is not documented in this study.</h3>
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   Flood Layer Generation
+   3. <br> Flood Layer Generation
 </a>
 
 <a href="Building Level Evacuation Routes and Analysis/" 
@@ -76,7 +76,7 @@ The tsunami numerical modeling component is not documented in this study.</h3>
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   Building Level Evacuation Routes and Analysis
+   4. <br> Building Level Evacuation Routes and Analysis
 </a>
 
 <a href="preprocessing/" 
@@ -92,7 +92,7 @@ The tsunami numerical modeling component is not documented in this study.</h3>
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   Mapping
+   5. <br> Mapping
 </a>
 </div>
 
