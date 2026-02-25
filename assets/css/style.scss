@@ -14,8 +14,8 @@ h1 {
 p {
     text-align: justify;
 }
-body {
-    max-width: 1000px;   /* controls content width */
-    margin: 0 auto;      /* centers content */
-    padding: 0 40px;     /* space left & right */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
