@@ -2,17 +2,43 @@
             Merging of Bathymetry and Topography data 
 </h1>
 
-<h2 style="text-align:center; margin-top:30px; margin-bottom:30px;">
-The objective of this exercise is to interpolate Bathymetry and topography. The output of this will be input as **C grid** in ComMIT model.
-</h2>
+<h3>Objective</h3>
 
-<h2 style="text-align:center; margin-top:30px; margin-bottom:30px;"><p>
-Data inputs:<br>
 <p>
-1. Bathymetry gridded raster or points data<br>
-2. Topography (Digital Elevation Model- DEM)</p>
-<br>
-Here as a test case we are using GEBCO bathymetry and SRTM topography data</p></h2>
+The objective of this exercise is to interpolate bathymetry and topography datasets 
+to generate a continuous elevation surface. The resulting raster will serve as the 
+<strong>C-grid input</strong> for the ComMIT tsunami model.
+</p>
+
+<h3>Data Inputs</h3>
+
+<ol>
+<li>Bathymetry (gridded raster or point data)</li>
+<li>Topography (Digital Elevation Model – DEM)</li>
+</ol>
+
+
+<p>
+For demonstration purposes, this workflow utilizes 
+<strong>GEBCO bathymetry</strong> and 
+<strong>SRTM topography</strong> datasets.
+</p>
+
+
+<div style="background-color:#fff3e0; 
+            border-left:6px solid #ef6c00; 
+            padding:14px 18px; 
+            margin:25px 0;
+            border-radius:6px;
+            max-width:800px;">
+
+<strong>Important:</strong><br>
+If bathymetry and topography data are already available in point shapefile format, 
+Steps 1 and 2 may be skipped.
+
+</div>
+
+
 
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
