@@ -2,7 +2,7 @@
             Merging of Bathymetry and Topography data 
 </h1>
 
-<div style="max-width:900px; margin:0 auto; padding:0 10px;">
+<div style="max-width:1400px; margin:0 auto; padding:0 10px;">
 <h3>Objective</h3>
 <p>          
 The objective of this exercise is to interpolate bathymetry and topography datasets 
