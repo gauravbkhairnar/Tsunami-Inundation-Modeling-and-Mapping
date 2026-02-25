@@ -1,18 +1,24 @@
-# Merging of Bathymetry and Topography data 
+<h1 style="text-align:center; margin-top:30px; margin-bottom:30px;">
+            Merging of Bathymetry and Topography data 
+</h1>
 
+<h2 style="text-align:center; margin-top:30px; margin-bottom:30px;">
 The objective of this exercise is to interpolate Bathymetry and topography. The output of this will be input as **C grid** in ComMIT model.
+</h2>
 
+<h2 style="text-align:center; margin-top:30px; margin-bottom:30px;"><p>
 Data inputs:
 1. Bathymetry gridded raster or points data
 2. Topography (Digital Elevation Model- DEM)
-
-Here as a test case we are using GEBCO bathymetry and SRTM topography data
+<br>
+Here as a test case we are using GEBCO bathymetry and SRTM topography data</p></h2>
 
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:12px; 
-            margin:15px 0;">
+            margin:15px 0;max-width:600px;"
+            >
 
 <strong>Important Note:</strong><br>
 If you have your own Bathymetry and Topography DEM data in "Point Shapefile" format then skip Step 1 and 2.
