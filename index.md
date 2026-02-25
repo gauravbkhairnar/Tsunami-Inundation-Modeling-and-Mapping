@@ -3,11 +3,11 @@
 </h1>
  
 
-
+<h2 style="text-align:center;">
 Tsunamis are among the most destructive coastal hazards, capable of causing large-scale inundation and infrastructure damage within minutes. Accurate modelling and mapping of tsunami inundation are essential for risk assessment, evacuation planning, and disaster preparedness.
 
 This training program focuses on the complete workflow — from terrain preparation to evacuation route mapping — using GIS tools and numerical modelling.
-
+</h2>
 
 > **__Important Note__**<br>
 >The tsunami numerical modeling component is not documented in this study.
