@@ -29,6 +29,23 @@ This training program focuses on the complete workflow — from terrain preparat
           border-radius:24px;">
    Merging Bathymetry and Topography data
 </a>
+
+<a 
+   style="display:flex;
+          align-items:center;
+          justify-content:center;
+          background-color:#F2C1D1;
+          width:150px;
+          height:150px;
+          text-align:center;
+          color:white;
+          font-size:18px;
+          font-weight:bold;
+          text-decoration:none;
+          border-radius:24px;">
+   Tsunami Modelling
+</a>
+
 <a href="Flood-Layer-Generation/" 
    style="display:flex;
           align-items:center;
