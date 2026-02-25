@@ -30,7 +30,7 @@ For demonstration purposes, this workflow utilizes
             padding:14px 18px; 
             margin:25px 0;
             border-radius:6px;
-            max-width:800px;">
+            max-width:800px;style="text-align:center;">
 
 <strong>Important:</strong><br>
 If bathymetry and topography data are already available in point shapefile format, 
