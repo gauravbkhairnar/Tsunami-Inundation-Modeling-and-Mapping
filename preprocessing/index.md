@@ -40,9 +40,10 @@ skip Steps 1 and 2.
 
  
 
-<h2>1. Add Layer into QGIS</h2><br>
+<h2>1. Add Layer into QGIS</h2>
 If Bathymetry and Topography data is in raster format:<br>
 Layer --> Add Layer --> Add Raster Layer.. <br>
+<br>
 <img width="932" height="715" alt="image" src="https://github.com/user-attachments/assets/2990940a-e9aa-423f-80e3-2de9dfa7172b" style="border:1px solid #ccc; padding:4px;" />
 <br>
 
@@ -56,7 +57,7 @@ Layer --> Add Layer --> Add Raster Layer.. <br>
 Both data should be in same coordinate system (WGS 84: EPSG:4326)
 </div>
 <br>
-<br>
+
 <h2>2. Reprojection:</h2>
 If your Bathymetry and Topography layers are already in WGS 84: EPSG:4326, then ignore this step
 Go to ‘**Raster**’ tab → **Projections** → **Warp (reprojection)**
