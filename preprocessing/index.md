@@ -2,7 +2,7 @@
             Merging of Bathymetry and Topography data 
 </h1>
 
-<div style="max-width:900px; margin:0 auto; padding:0 20px;">
+<div style="max-width:900px; margin:0 auto; padding:0 10px;">
 <h3>Objective</h3>
 <p>          
 The objective of this exercise is to interpolate bathymetry and topography datasets 
@@ -25,8 +25,8 @@ For demonstration purposes, this workflow utilizes
 </p>
 
 
-<div style="background-color:#fff3e0; 
-            border-left:6px solid #ef6c00; 
+<div style="background-color:#f57c00; 
+            border-left:6px solid #fff8e1; 
             padding:14px 18px; 
             margin:25px 0;
             border-radius:6px;
@@ -34,23 +34,12 @@ For demonstration purposes, this workflow utilizes
 
 <strong>Important:</strong><br>
 If bathymetry and topography data are already available in point shapefile format, 
-Steps 1 and 2 may be skipped.
+skip Steps 1 and 2.
 
 </div>
-</div>
 
 
-<div style="background-color:#f57c00; 
-            border-left:5px solid #fff8e1; 
-            color:white; 
-            padding:12px; 
-            margin:15px 0;border-radius:6px;"
-            >
-
-<strong>Important Note:</strong><br>
-If you have your own Bathymetry and Topography DEM data in "Point Shapefile" format then skip Step 1 and 2.
-
-</div>
+ 
 
 ## 1. Add Layer into QGIS
 ### If Bathymetry and Topography data is in raster format:
@@ -105,6 +94,9 @@ Taeget CRS → click on glob icon <img width="35" height="37" alt="image" src="h
 
  <div>
  <img width="100%" height="927" alt="image" src="https://github.com/user-attachments/assets/ba69ecd4-1f09-435a-9cd5-a3e1a81ad6bb" style="border:1px solid #ccc; padding:4px;"/>
+</div>
+
+
 </div>
 <br>
 
