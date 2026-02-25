@@ -3,7 +3,7 @@
 </h1>
  
 
-<h2 style="text-align:center;">
+<h2 >
 <p>
 Tsunamis are among the most destructive coastal hazards, capable of causing large-scale inundation and infrastructure damage within minutes. Accurate modelling and mapping of tsunami inundation are essential for risk assessment, evacuation planning, and disaster preparedness.
 
