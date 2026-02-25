@@ -11,6 +11,7 @@ The objective of this exercise is to generate a flood zone using output from the
 Data inputs:
 <ul><li>Raster Layer in .TIFF format (Generated from ComMIT)</li></ul>
 
+
 1. Download the <strong>'Flood_Layer_Generation.model3'</strong> file from <a href="https://indiannational-my.sharepoint.com/:u:/g/personal/gb_khairnar-p_incois_gov_in/IQBGrV2RltbzQIKHZYlADkx3AeDDSrvKzrMrfnETn_mIsfk?e=Io2Yvv">here</a> <br>
 <br>
 2. Open QGIS --> <strong>Open Processing Toolbox</strong> <br>
