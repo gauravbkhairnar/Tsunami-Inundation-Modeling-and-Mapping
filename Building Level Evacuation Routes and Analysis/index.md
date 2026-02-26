@@ -62,7 +62,7 @@ https://sites.research.google/gr/open-buildings/
 <br>
 
 <div style="text-align:center;">
-<img width="1020" alt="Google building site" src="https://github.com/user-attachments/assets/3e20cf77-60c6-4f9a-b823-cceb9e9c0c57" />
+<img width="1220" alt="Google building site" src="https://github.com/user-attachments/assets/3e20cf77-60c6-4f9a-b823-cceb9e9c0c57" />
          
 </div>
 
@@ -76,7 +76,7 @@ You can search your Area of Interest (AOI) or zoom into your area and select the
 <br>
 
 <div style="text-align:center;">
-<img width="1920" height="1032" alt="Download" src="https://github.com/user-attachments/assets/4556466c-6f29-4fb2-97c9-dfe5eed31541" />
+<img width="1220" alt="Download" src="https://github.com/user-attachments/assets/4556466c-6f29-4fb2-97c9-dfe5eed31541" />
 </div>
 
 <br><br>
@@ -98,7 +98,7 @@ After downloading, extract the file to obtain the CSV file.
 <br>
 
 <div style="text-align:center;">
-<img width="1920" height="1032" alt="QGIS" src="https://github.com/user-attachments/assets/a71c6d11-d0d1-4e4c-b4da-e3d205565791" />
+<img width="1220" alt="QGIS" src="https://github.com/user-attachments/assets/a71c6d11-d0d1-4e4c-b4da-e3d205565791" />
             
 </div>
 
@@ -144,7 +144,7 @@ This step may take considerable time as the dataset may contain more than 10 mil
 <br>
 
 <div style="text-align:center;">
-<img width="1920" height="1032" alt="Data_selection" src="https://github.com/user-attachments/assets/6cddb0fd-ec7a-4d4c-a52b-23a2438459b4" />
+<img width="1220" alt="Data_selection" src="https://github.com/user-attachments/assets/6cddb0fd-ec7a-4d4c-a52b-23a2438459b4" />
 
 </div>
 
