@@ -62,7 +62,7 @@ https://sites.research.google/gr/open-buildings/
 <br>
 
 <div style="text-align:center;">
-<img width="1920" height="1032" alt="Google building site" src="https://github.com/user-attachments/assets/3e20cf77-60c6-4f9a-b823-cceb9e9c0c57" />
+<img width="1020" alt="Google building site" src="https://github.com/user-attachments/assets/3e20cf77-60c6-4f9a-b823-cceb9e9c0c57" />
          
 </div>
 
