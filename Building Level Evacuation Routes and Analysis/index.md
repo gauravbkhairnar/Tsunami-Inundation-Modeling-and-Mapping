@@ -185,9 +185,11 @@ the shortest evacuation routes to designated safe shelters using minimal user in
 
 <h3>2.1 Installing Prerequisites</h3>
 
-<p><strong>(i)</strong> Download the <strong>requirements.txt</strong> file.</p>
+<p><strong>(i)</strong> Download the <strong><a href="https://indiannational-my.sharepoint.com/:t:/g/personal/gb_khairnar-p_incois_gov_in/IQAjMkcNdlQUT6O7jB9G4z1FAdqugvRDl9Xh44rVVSDPzgY?e=o2PuOq" target="_blank">
+requirements.txt</a></strong> file.</p>
 
-<p><strong>(ii) Installation:</strong></p>
+
+<p><strong>(ii) </strong>Installation:</p>
 
 <p><strong>For Windows:</strong></p>
 <ul>
@@ -260,7 +262,7 @@ Select the <strong>"All"</strong> tab → Search for
             padding:15px; 
             margin:25px 0; 
             border-radius:6px;">
-<strong>Note:</strong>
+<strong>Important Note:</strong>
 All input layers must be projected in <strong>EPSG:4326 (WGS 84)</strong> 
 to ensure correct spatial analysis and routing.
 </div>
@@ -317,9 +319,8 @@ After successful installation, navigate to:
 <h3>Output Attributes</h3>
 
 <ul>
-<li>Each building is assigned to the nearest evacuation shelter</li>
-<li>The shortest evacuation route is computed</li>
-<li>Walking time is calculated and stored in the <strong>Time</strong> field</li>
+<li>Each building is assigned to the nearest evacuation shelter and that shelter’s ID and the shortest route is computed between each building and its assigned shelter.</li>
+<li>Walking time is calculated and stored in the <strong>Time</strong> field from the building to the shelter.</li>
 </ul>
 
 <div style="text-align:center; margin:20px 0;">
@@ -331,19 +332,21 @@ After successful installation, navigate to:
 
 <ul>
 <li>Evacuation is assumed to occur by walking to avoid traffic congestion</li>
-<li>Walking speed is considered as 5 m/s</li>
-<li>All evacuees are assumed to be physically fit adults</li>
-<li>Road network derived from OpenStreetMap is assumed to be fully passable</li>
-<li>Evacuation starts from the nearest accessible road junction</li>
-<li>Off-road evacuation is not considered</li>
+<li>All evacuees are assumed to be physically fit adults and walking speed is considered as 5 m/s</li>
+<li>Road network derived from OpenStreetMap is assumed to be fully passable. Off-road evacuation is not considered</li>
+<li>All evacuees are assumed to start from the nearest accessible node/junction on the road network. The distance from each building to the nearest junction and the walking time within the building (in case of a big building/multi-story) are not considered.</li>
+
 </ul>
 
 <h3>Exceptions and Special Conditions</h3>
 
 <ul>
-<li><strong>No Buildings in Flood Zone:</strong> Process terminates with message “No Buildings in the Flood Zone”.</li>
-<li><strong>All Shelters Within Flood Zone:</strong> Process terminates with message “All evacuation shelters are in the flood zone”.</li>
-<li><strong>Road Network Not Available:</strong> Process stops with message “Road Network Not Found”.</li>
+<li><strong>No Buildings in Flood Zone:</strong> If no buildings intersect with the flood inundation zone, the process terminates automatically and a message is displayed:
+“No Buildings in the Flood Zone”</li>
+<li><strong>All Shelters Within Flood Zone:</strong> If all evacuation shelters fall within the flooding/inundation area, the process terminates and the following message is shown:
+“All evacuation shelters are in the flood zone”.</li>
+<li><strong>If no OpenStreetMap (OSM) pedestrian road network is found in the vicinity of the buildings, the process stops and a warning message is displayed:
+“Road Network Not Found”.</li>
 </ul>
 
 <div style="background-color:#f57c00; 
