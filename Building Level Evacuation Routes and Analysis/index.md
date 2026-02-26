@@ -172,6 +172,8 @@ This step may take considerable time as the dataset may contain more than 10 mil
 
 </div>
 
+<hr style="margin:30px 0;">
+
 <h2>2. Installing Required QGIS Plugin</h2>
 
 <p>
@@ -277,6 +279,7 @@ to ensure correct spatial analysis and routing.
 
 <hr style="margin:30px 0;">
 
+
 <h2>3. Building-Level Evacuation Analysis</h2>
 
 <p>
@@ -355,7 +358,7 @@ After successful installation, navigate to:
 “No Buildings in the Flood Zone”</li>
 <li><strong>All Shelters Within Flood Zone:</strong> If all evacuation shelters fall within the flooding/inundation area, the process terminates and the following message is shown:
 “All evacuation shelters are in the flood zone”.</li>
-<li><strong>If no OpenStreetMap (OSM) pedestrian road network is found in the vicinity of the buildings, the process stops and a warning message is displayed:
+<li><strong>If no OpenStreetMap (OSM) pedestrian road network is found in the vicinity of the buildings</strong> the process stops and a warning message is displayed:
 “Road Network Not Found”.</li>
 </ul>
 
@@ -408,9 +411,12 @@ Keysers, D., Neumann, M., Cisse, M., & Quinn, J.A. (2021).
 <i>Continental-scale building detection from high resolution satellite imagery.</i> 
 arXiv:2107.12283.
 <br>
+<br>
 Putra, H., Kemal, B. M., & Mas, E. (2020, February). Identification of factors influencing the evacuation walking speed in Padang, Indonesia. In 2nd International Symposium on Transportation Studies in Developing Countries (ISTSDC 2019) (pp. 125-130). Atlantis Press.
 <br>
+<br>
 Srinivasa Kumar, T., & Manneela, S. (2021). A review of the progress, challenges and future trends in tsunami early warning systems. Journal of the Geological Society of India, 97(12), 1533-1544
+<br>
 <br>
 Universal Transverse Mercator coordinate system – Wikipedia
 https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
