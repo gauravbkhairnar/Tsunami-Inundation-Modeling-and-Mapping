@@ -166,120 +166,185 @@ This step may take considerable time as the dataset may contain more than 10 mil
 <img src="https://github.com/user-attachments/assets/d554e356-c16a-4606-81cc-a7a17719c05d" width="100%">
 </div>
 
-
 <h2>2. Installing Required QGIS Plugin</h2>
- 
+
 <p>
-We will install <strong>Build_Short_Evac_Time</strong>, a is a QGIS plugin designed to automatically identify buildings requiring evacuation within a tsunami-affected area and generate shortest evacuation routes to designated safe shelters using minimal user inputs.
+We will install <strong>Build_Short_Evac_Time</strong>, a QGIS plugin designed to automatically 
+identify buildings requiring evacuation within a tsunami-affected area and generate 
+the shortest evacuation routes to designated safe shelters using minimal user input.
 </p>
+
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
             color:white; 
             padding:15px; 
             margin:25px 0; 
             border-radius:6px;">
-<strong>This plugin required prerequisites. Please follow the steps before installing plugin </strong>
-</div>
-<h2>2.1 Installing prerequisites</h2>
-
-<strong>(i)</strong>Please download requirement.txt 
-<strong>(ii)</strong>
-For Windows:
-  * Copy requirement.txt filepath --> Start --> Open OSGeo4W Shell --> cd (paste filepath) --> Enter -->
-  * paste this 
-  ```bash
-	pip install -r requirements.txt
-```
- For Linux:
-  * Open terminal --> cd requirement.txt filepath -->
-  * paste this
-    
-    ```bash
-	python3 -m pip install --user -r requirements.txt
-	```
- <strong>(iii)</strong>   
- Restart QGIS
-
-<h2>2.2 Installing plugin</h2>
-Open QGIS -> Plugins -> Manage and Install Plugins... -> "All" tab (in right pannel) -> search for 'Build_Short_Evac_Time' --> select and install plugin
-<br>
-<div style="text-align:center;">
-<img width="660" height="330" alt="plugin_install" src="https://github.com/user-attachments/assets/b6752b5c-9409-470f-b87d-6001830c2f62" />
+<strong>This plugin requires prerequisites. Please complete the following steps before installing the plugin.</strong>
 </div>
 
-<div style="text-align:center;">
-<img width="1306" height="773" alt="plugin" src="https://github.com/user-attachments/assets/1e94340f-7866-44f9-b0d9-c6acdbd32538" />
+<h3>2.1 Installing Prerequisites</h3>
+
+<p><strong>(i)</strong> Download the <strong>requirements.txt</strong> file.</p>
+
+<p><strong>(ii) Installation:</strong></p>
+
+<p><strong>For Windows:</strong></p>
+<ul>
+<li>Copy the <strong>requirements.txt</strong> file path</li>
+<li>Open <strong>Start → OSGeo4W Shell</strong></li>
+<li>Navigate to the file location using:<br>
+<code>cd &lt;paste file path&gt;</code></li>
+<li>Run the following command:</li>
+</ul>
+
+<pre style="background:#f4f4f4; padding:10px; border-radius:5px;">
+pip install -r requirements.txt
+</pre>
+
+<p><strong>For Linux:</strong></p>
+<ul>
+<li>Open Terminal</li>
+<li>Navigate to the file location:<br>
+<code>cd &lt;requirements file path&gt;</code></li>
+<li>Run:</li>
+</ul>
+
+<pre style="background:#f4f4f4; padding:10px; border-radius:5px;">
+python3 -m pip install --user -r requirements.txt
+</pre>
+
+<p><strong>(iii)</strong> Restart QGIS after installation.</p>
+
+<hr style="margin:30px 0;">
+
+<h3>2.2 Installing the Plugin</h3>
+
+<p>
+Open QGIS → <strong>Plugins → Manage and Install Plugins</strong> → 
+Select the <strong>"All"</strong> tab → Search for 
+<strong>Build_Short_Evac_Time</strong> → Install the plugin.
+</p>
+
+<div style="text-align:center; margin:20px 0;">
+<img src="https://github.com/user-attachments/assets/b6752b5c-9409-470f-b87d-6001830c2f62" width="70%">
 </div>
 
-Input required:
-
-First three datasets (Building, Evacuation Shelter and Inunndation layer) must be vector layers in one of the supported formats:
-
-Shapefile(.shp)
-Geojson (.geojson)
-
-Optional Digital Elevation Model must be in .tff file format.
-
-The following layers are required:
-1. Building Layer (Geometry type: Polygon)
-2. Evacuation Shelters Layer (Geometry type: Point)
-3. Flood Inundation Layer (Geometry type: Polygon)
-4. (Optional) Digital Elevation Model (Raster file: TIFF)
-
-
-> **__Note:__**
-> * All input layers must be projected in EPSG:4326 (WGS 84) to ensure correct spatial analysis and routing.
-
-<h2>3. Building-Level Evacuation Analysis</h2> 
-After successful installation, QGIS --> Plugins --> build_short_evac_time --> Build Shortest Evacuation Time. As shown in the figure below.
-<div style="text-align:center;">
-<img width="938" height="249" alt="image" src="https://github.com/user-attachments/assets/c3c645a9-41c0-4c68-b608-c3ed63877e4a" />
+<div style="text-align:center; margin:20px 0;">
+<img src="https://github.com/user-attachments/assets/1e94340f-7866-44f9-b0d9-c6acdbd32538" width="90%">
 </div>
-<strong>(i) Select input layers</strong>
- If the Buildings, Evacuation Shelters, and Flood Inundation layers are already loaded in the QGIS Layers Panel, select them using the respective dropdown menus.
-* Alternatively, use the Browse buttons to select input layers directly from disk without adding them to the Layers Panel
-* Uploading DEM is optional. If it is provided, terrain slopes will be incorporated in walking time which will be more realistic. If DEM is not provided then terrain is assumed to be flat.
-<strong>(ii) Select Output Folder (Optional)</strong>
-* Specify an output folder where the results will be saved.
-* If no output folder is provided, the plugin will automatically create temporary layers in memory.
-<strong>(iii) Run the Model</strong>
-Steps are shown in the Figure below:
-<img width="1027" height="667" alt="Run_update" src="https://github.com/user-attachments/assets/5c869117-b20d-420a-b00a-cac3d6ed3f53" />
 
+<h4>Input Requirements</h4>
 
-Output
-After successful execution, the output layers will be added to the QGIS Layers Panel:
-(1) buildings_with_clusters
-* Contains buildings identified as requiring evacuation.
-* Includes building-level evacuation attributes.
-(2) Evacuation_Routes
-* Represents the shortest walking routes from the nearest node from building to its assigned evacuation shelter.
+<p>The first three datasets must be vector layers in one of the following supported formats:</p>
 
+<ul>
+<li>Shapefile (.shp)</li>
+<li>GeoJSON (.geojson)</li>
+</ul>
 
-Output Attributes
-* Each building is assigned to the nearest evacuation shelter and that shelter’s ID and the shortest route is computed between each building and its assigned shelter.
-* Walking time is calculated and stored in the Time field from the building to the shelter.
-Reference output is shown below:
-<img width="580" height="474" alt="Output" src="https://github.com/user-attachments/assets/cc3bfdcd-8c0b-4713-92fb-0adb4e8597ea" />          <img width="369" height="471" alt="attribute_table" src="https://github.com/user-attachments/assets/8365c3e8-be6f-4afa-99f8-d0e549d65a85" />
+<p>The optional Digital Elevation Model (DEM) must be in <strong>.tif</strong> format.</p>
 
+<p><strong>Required Layers:</strong></p>
 
-Assumptions
-* The evacuation mode during the inundation hazards is preferably by walking to avoid traffic congestion. Walking speed is considered as 5 m/s
-* All evacuees are assumed to be physically fit adults capable of walking without assistance.
-* The road network derived from OpenStreetMap is assumed to be fully passable and in good condition for evacuation. The off-road evacuation was not considered.
-* All evacuees are assumed to start from the nearest accessible node/junction on the road network. The distance from each building to the nearest junction and the walking time within the building (in case of a big building/multi-story) are not considered.
-  
-Exceptions and Special Conditions
-* No Buildings in the Flood Zone
-If no buildings intersect with the flood inundation zone, the process terminates automatically and a message is displayed:
-“No Buildings in the Flood Zone”
-* All Shelters Within Flood Zone
-If all evacuation shelters fall within the flooding/inundation area, the process terminates and the following message is shown:
-“All evacuation shelters are in the flood zone”
-* Road Network Not Available
-If no OpenStreetMap (OSM) pedestrian road network is found in the vicinity of the buildings, the process stops and a warning message is displayed:
-“Road Network Not Found”
+<ol>
+<li><strong>Building Layer</strong> (Geometry: Polygon)</li>
+<li><strong>Evacuation Shelters Layer</strong> (Geometry: Point)</li>
+<li><strong>Flood Inundation Layer</strong> (Geometry: Polygon)</li>
+<li><strong>(Optional)</strong> Digital Elevation Model (Raster: TIFF)</li>
+</ol>
 
+<div style="background-color:#f57c00; 
+            border-left:5px solid #fff8e1; 
+            color:white; 
+            padding:15px; 
+            margin:25px 0; 
+            border-radius:6px;">
+<strong>Note:</strong>
+All input layers must be projected in <strong>EPSG:4326 (WGS 84)</strong> 
+to ensure correct spatial analysis and routing.
+</div>
+
+<hr style="margin:30px 0;">
+
+<h2>3. Building-Level Evacuation Analysis</h2>
+
+<p>
+After successful installation, navigate to:
+<strong>QGIS → Plugins → Build_Short_Evac_Time → Build Shortest Evacuation Time</strong>.
+</p>
+
+<div style="text-align:center; margin:20px 0;">
+<img src="https://github.com/user-attachments/assets/c3c645a9-41c0-4c68-b608-c3ed63877e4a" width="90%">
+</div>
+
+<h3>(i) Select Input Layers</h3>
+
+<ul>
+<li>If the Building, Evacuation Shelter, and Flood Inundation layers are already loaded in the QGIS Layers Panel, select them using the dropdown menus.</li>
+<li>Alternatively, use the <strong>Browse</strong> buttons to select input layers directly from disk.</li>
+<li>Uploading DEM is optional. If provided, terrain slope will be incorporated into walking time calculation for more realistic results. If not provided, terrain is assumed to be flat.</li>
+</ul>
+
+<h3>(ii) Select Output Folder (Optional)</h3>
+
+<ul>
+<li>Specify an output folder to save results.</li>
+<li>If no folder is provided, temporary memory layers will be created automatically.</li>
+</ul>
+
+<h3>(iii) Run the Model</h3>
+
+<div style="text-align:center; margin:20px 0;">
+<img src="https://github.com/user-attachments/assets/5c869117-b20d-420a-b00a-cac3d6ed3f53" width="95%">
+</div>
+
+<h3>Output</h3>
+
+<p>After successful execution, the following layers will be added to the QGIS Layers Panel:</p>
+
+<p><strong>1. buildings_with_clusters</strong></p>
+<ul>
+<li>Contains buildings identified as requiring evacuation</li>
+<li>Includes building-level evacuation attributes</li>
+</ul>
+
+<p><strong>2. Evacuation_Routes</strong></p>
+<ul>
+<li>Represents the shortest walking routes from each building to its assigned evacuation shelter</li>
+</ul>
+
+<h3>Output Attributes</h3>
+
+<ul>
+<li>Each building is assigned to the nearest evacuation shelter</li>
+<li>The shortest evacuation route is computed</li>
+<li>Walking time is calculated and stored in the <strong>Time</strong> field</li>
+</ul>
+
+<div style="text-align:center; margin:20px 0;">
+<img src="https://github.com/user-attachments/assets/cc3bfdcd-8c0b-4713-92fb-0adb4e8597ea" width="45%">
+<img src="https://github.com/user-attachments/assets/8365c3e8-be6f-4afa-99f8-d0e549d65a85" width="40%">
+</div>
+
+<h3>Assumptions</h3>
+
+<ul>
+<li>Evacuation is assumed to occur by walking to avoid traffic congestion</li>
+<li>Walking speed is considered as 5 m/s</li>
+<li>All evacuees are assumed to be physically fit adults</li>
+<li>Road network derived from OpenStreetMap is assumed to be fully passable</li>
+<li>Evacuation starts from the nearest accessible road junction</li>
+<li>Off-road evacuation is not considered</li>
+</ul>
+
+<h3>Exceptions and Special Conditions</h3>
+
+<ul>
+<li><strong>No Buildings in Flood Zone:</strong> Process terminates with message “No Buildings in the Flood Zone”.</li>
+<li><strong>All Shelters Within Flood Zone:</strong> Process terminates with message “All evacuation shelters are in the flood zone”.</li>
+<li><strong>Road Network Not Available:</strong> Process stops with message “Road Network Not Found”.</li>
+</ul>
 
 <div style="background-color:#f57c00; 
             border-left:5px solid #fff8e1; 
@@ -290,11 +355,14 @@ If no OpenStreetMap (OSM) pedestrian road network is found in the vicinity of th
 
 <strong>Important Notes:</strong>
 <ul style="margin-top:10px;">
-<li>The model executes using sequential processing; parallel or multiprocessing is not currently implemented.</li>
-<li>Sample datasets for the Build Shortest Evacuation Time plugin are provided in the [sample data](https://github.com/gauravbkhairnar/Build_Short_Evac_Time_QGIS_Plugin/tree/main/sample_data) folder for testing and demonstration purposes.</li>
+<li>The model executes using sequential processing; parallel processing is not implemented.</li>
+<li>Sample datasets are available in the 
+<a href="https://github.com/gauravbkhairnar/Build_Short_Evac_Time_QGIS_Plugin/tree/main/sample_data" target="_blank" style="color:white; text-decoration:underline;">
+sample data folder
+</a> for testing and demonstration.
+</li>
 </ul>
 </div>
-
 
 
 
