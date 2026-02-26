@@ -62,7 +62,8 @@ https://sites.research.google/gr/open-buildings/
 <br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/94822bf2-cd6d-429e-87ec-6e5819c4d68f" width="100%">
+<img width="1920" height="1032" alt="Google building site" src="https://github.com/user-attachments/assets/3e20cf77-60c6-4f9a-b823-cceb9e9c0c57" />
+         
 </div>
 
 <br><br>
@@ -75,7 +76,7 @@ You can search your Area of Interest (AOI) or zoom into your area and select the
 <br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/5703cc5d-42a1-480b-8c25-2fb562459964" width="100%">
+<img width="1920" height="1032" alt="Download" src="https://github.com/user-attachments/assets/4556466c-6f29-4fb2-97c9-dfe5eed31541" />
 </div>
 
 <br><br>
@@ -97,7 +98,8 @@ After downloading, extract the file to obtain the CSV file.
 <br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/bcb68d61-d37c-48fc-8bce-acbf0136eae7" width="100%">
+<img width="1920" height="1032" alt="QGIS" src="https://github.com/user-attachments/assets/a71c6d11-d0d1-4e4c-b4da-e3d205565791" />
+            
 </div>
 
 <br><br>
@@ -126,7 +128,8 @@ This step may take considerable time as the dataset may contain more than 10 mil
 <br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/ea6ea5dd-b2f3-41e2-91d9-c4eb6a4a4b05" width="100%">
+<img width="1002" height="632" alt="opening_data" src="https://github.com/user-attachments/assets/cfa69185-2fe1-4e91-8feb-0d117e601e9a" />
+
 </div>
 
 <hr style="margin:30px 0;">
@@ -141,7 +144,8 @@ This step may take considerable time as the dataset may contain more than 10 mil
 <br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/7c5b5324-db1b-42d7-89ea-b18a718b1889" width="100%">
+<img width="1920" height="1032" alt="Data_selection" src="https://github.com/user-attachments/assets/6cddb0fd-ec7a-4d4c-a52b-23a2438459b4" />
+
 </div>
 
 <hr style="margin:30px 0;">
@@ -157,13 +161,15 @@ This step may take considerable time as the dataset may contain more than 10 mil
 <br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/7589ee86-00f8-496c-9e7d-66811d00fff2" width="100%">
+<img width="862" height="981" alt="Save_layer" src="https://github.com/user-attachments/assets/bb7af33f-09f1-4e7a-bae3-e7e05e901935" />
+
 </div>
 
 <br><br>
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/d554e356-c16a-4606-81cc-a7a17719c05d" width="100%">
+<img width="593" height="664" alt="Save_layer_shp" src="https://github.com/user-attachments/assets/bf6586d1-9f44-4dd1-9f51-22290dd1424a" />
+
 </div>
 
 <h2>2. Installing Required QGIS Plugin</h2>
@@ -229,11 +235,13 @@ Select the <strong>"All"</strong> tab → Search for
 </p>
 
 <div style="text-align:center; margin:20px 0;">
-<img src="https://github.com/user-attachments/assets/b6752b5c-9409-470f-b87d-6001830c2f62" width="70%">
-</div>
+<img width="660" height="330" alt="plugin_install" src="https://github.com/user-attachments/assets/b7de7841-aaa4-4881-bb67-fbdc4dfb109d" />
 
+</div>
+<br>
 <div style="text-align:center; margin:20px 0;">
-<img src="https://github.com/user-attachments/assets/1e94340f-7866-44f9-b0d9-c6acdbd32538" width="90%">
+<img width="1306" height="773" alt="plugin" src="https://github.com/user-attachments/assets/2cf98b94-3e37-4233-b602-e2a190f29a31" />
+
 </div>
 
 <h4>Input Requirements</h4>
@@ -298,7 +306,9 @@ After successful installation, navigate to:
 <h3>(iii) Run the Model</h3>
 
 <div style="text-align:center; margin:20px 0;">
-<img src="https://github.com/user-attachments/assets/5c869117-b20d-420a-b00a-cac3d6ed3f53" width="95%">
+
+<img width="1027" height="667" alt="Run_update" src="https://github.com/user-attachments/assets/57f3483c-1b33-4415-b608-c86178051754" />
+
 </div>
 
 <h3>Output</h3>
@@ -324,8 +334,8 @@ After successful installation, navigate to:
 </ul>
 
 <div style="text-align:center; margin:20px 0;">
-<img src="https://github.com/user-attachments/assets/cc3bfdcd-8c0b-4713-92fb-0adb4e8597ea" width="45%">
-<img src="https://github.com/user-attachments/assets/8365c3e8-be6f-4afa-99f8-d0e549d65a85" width="40%">
+<img src="https://github.com/user-attachments/assets/cc3bfdcd-8c0b-4713-92fb-0adb4e8597ea" width="55%">
+<img src="https://github.com/user-attachments/assets/8365c3e8-be6f-4afa-99f8-d0e549d65a85" width="30%">
 </div>
 
 <h3>Assumptions</h3>
