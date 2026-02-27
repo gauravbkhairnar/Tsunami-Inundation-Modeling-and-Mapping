@@ -21,7 +21,7 @@ All exercises in this program are conducted using <a href="https://qgis.org/" ta
 
 <div style="background-color:#F7F7F7; 
             border-left:5px solid #F7F7F7; 
-            color:white; 
+            color:black; 
             padding:15px; 
             margin:25px 0; 
             border-radius:6px;">
