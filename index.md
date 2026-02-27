@@ -1,3 +1,10 @@
+<div style="max-width:1400px; 
+            margin:40px auto; 
+            padding:0 30px; 
+            font-family:Arial, sans-serif; 
+            line-height:1.7;">
+
+
 <h1 style="text-align:center;">
  Tsunami-Inundation-Modeling-and-Mapping
 </h1>
@@ -96,4 +103,4 @@ The tsunami numerical modeling component is not documented in this study.</h3>
 </a>
 </div>
 
-
+</div>
