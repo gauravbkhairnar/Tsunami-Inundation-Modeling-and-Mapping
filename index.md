@@ -19,7 +19,7 @@ This training program provides a comprehensive, step-by-step workflow covering t
 All exercises in this program are conducted using <a href="https://qgis.org/" target="_blank">QGIS</a>, a widely used open-source GIS platform. The use of an open-source environment ensures accessibility, transparency, and reproducibility of methods, enabling participants to apply the workflow within their own institutional or project settings without software licensing constraints.
 </p>
 
-<div style="background-color:#f57c00; 
+<div style="background-color:#F7F7F7; 
             border-left:5px solid #F7F7F7; 
             color:white; 
             padding:15px; 
