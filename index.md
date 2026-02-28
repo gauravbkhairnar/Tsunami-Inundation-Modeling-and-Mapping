@@ -8,8 +8,6 @@
 <h1 style="text-align:center;">
  Tsunami-Inundation-Modeling-and-Mapping
 </h1>
- 
-
 
 <p>
 Tsunamis are among the most destructive coastal hazards, capable of causing rapid and large-scale inundation, severe infrastructure damage, and significant loss of life. Within minutes of impact, coastal communities can be profoundly affected. Accurate modelling and mapping of tsunami inundation are critical components of coastal risk assessment, evacuation planning, land-use management, and disaster preparedness strategies.
