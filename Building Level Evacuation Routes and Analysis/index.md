@@ -5,8 +5,7 @@
             line-height:1.7;">
 
 <h1 style="text-align:center; margin-bottom:30px;">
-Building-Level Evacuation Routes and Analysis
-</h1>
+Building-Level Evacuation Routes and Analysis</h1>
 
 <p>
 This stage of the workflow focuses on preparing building footprint data and integrating it into QGIS 
