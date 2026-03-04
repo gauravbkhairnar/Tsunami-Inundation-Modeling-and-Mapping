@@ -125,7 +125,6 @@ This step may take considerable time as the dataset may contain more than 10 mil
 </div>
 
 <br>
-
 <div style="text-align:center;">
 <img width="1002" height="632" alt="opening_data" src="https://github.com/user-attachments/assets/cfa69185-2fe1-4e91-8feb-0d117e601e9a" />
 
