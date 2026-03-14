@@ -25,7 +25,7 @@ output produced by the <strong>ComMIT tsunami model</strong>.
 <h3>Step 1: Download the Model File</h3>
 
 <p>
-Download the <strong>Flood_Layer_Generation.model3</strong> file from 
+Download the <strong>Inundation Layer Generation.model3</strong> file from 
 
 <a href="https://drive.google.com/file/d/1pdwwJIWFygKIwpeaR3qD7g61x01L-p9E/view?usp=drive_link" target="_blank">
 here
