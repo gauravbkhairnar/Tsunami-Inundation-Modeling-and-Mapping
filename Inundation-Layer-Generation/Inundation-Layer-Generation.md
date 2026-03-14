@@ -26,7 +26,8 @@ output produced by the <strong>ComMIT tsunami model</strong>.
 
 <p>
 Download the <strong>Flood_Layer_Generation.model3</strong> file from 
-<a href="https://indiannational-my.sharepoint.com/:u:/g/personal/gb_khairnar-p_incois_gov_in/IQDr3YFaiW2RSKHS572g7eUCAcQPXyy-fh6bziGwSKPZRI4?e=4xz7JB" target="_blank">
+
+<a href="https://drive.google.com/file/d/1pdwwJIWFygKIwpeaR3qD7g61x01L-p9E/view?usp=drive_link" target="_blank">
 here
 </a>.
 </p>
