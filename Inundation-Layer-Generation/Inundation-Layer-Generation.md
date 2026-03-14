@@ -8,7 +8,7 @@ Inundation-Layer-Generation
 <h2>Objective</h2>
 
 <p>
-The objective of this exercise is to generate a flood zone using the inundation 
+The objective of this exercise is to generate a inundation zone using the inundation 
 output produced by the <strong>ComMIT tsunami model</strong>.
 </p>
 
