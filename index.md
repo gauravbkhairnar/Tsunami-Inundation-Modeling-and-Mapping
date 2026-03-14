@@ -60,7 +60,7 @@ This document does not address the numerical simulation of tsunami generation an
    2. <br> Tsunami Modelling
 </a>
 
-<a href="Flood-Layer-Generation/" 
+<a href="Inundation-Layer-Generation/" 
    style="display:flex;
           align-items:center;
           justify-content:center;
@@ -73,7 +73,7 @@ This document does not address the numerical simulation of tsunami generation an
           font-weight:bold;
           text-decoration:none;
           border-radius:24px;">
-   3. <br> Flood Layer Generation
+   3. <br> Inundation-Layer-Generation
 </a>
 
 <a href="Building Level Evacuation Routes and Analysis/" 
