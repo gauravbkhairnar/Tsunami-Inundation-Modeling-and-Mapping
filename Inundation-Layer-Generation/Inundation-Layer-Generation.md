@@ -69,7 +69,7 @@ and load the ComMIT inundation output.
 style="max-width:100%; border:1px solid #ccc; padding:6px;">
 </div>
 
-<h3>Step 4: Run Flood Layer Generation Model</h3>
+<h3>Step 4: Run Inundation Layer Generation Model</h3>
 
 <p>
 In the Processing Toolbox:
