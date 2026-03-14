@@ -53,7 +53,7 @@ style="max-width:60%; border:1px solid #ccc; padding:6px;">
 </div>
 
 <p>
-Select the downloaded <strong>Flood_Layer_Generation.model3</strong> file and click <strong>Open</strong>.
+Select the downloaded <strong>Inundation_Layer_Generation.model3</strong> file and click <strong>Open</strong>.
 </p>
 
 <h3>Step 3: Add ComMIT Output Raster</h3>
